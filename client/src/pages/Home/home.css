@@ -14,7 +14,7 @@ body {
   .filter_status {
     text-align: left;
   }
-  .dropdown_btn1,
+  .dropdown_btn,
   .export_btn,.gender,.status_radio {
     margin-bottom: 1.5rem;
   }
@@ -35,7 +35,7 @@ body {
     display: none;
   }
 
-  .dropdown_btn1:hover {
+  .dropdown_btn:hover {
     background-color: #47c99c;
   }
 }

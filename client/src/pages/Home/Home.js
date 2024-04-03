@@ -134,11 +134,7 @@ const Home = () => {
               </Form>
             </div>
             <div className="add_btn">
-              <Button
-                variant="primary"
-                onClick={adduser}
-                className="button"
-              >
+              <Button variant="primary" onClick={adduser} className="button">
                 <i className="fas fa-plus"></i>&nbsp; Add User
               </Button>
             </div>
@@ -185,8 +181,23 @@ const Home = () => {
             <div className="filter_newold">
               <h3>Short By Value</h3>
               <Dropdown className="text-center">
-                <Dropdown.Toggle className="dropdown_btn1" id="dropdown-basic">
-                  <i className="fas fa-sort"></i>
+                <Dropdown.Toggle className="dropdown_btn" id="dropdown-basic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-caret-down-fill"
+                    viewBox="0 0 16 16"
+                    style={{
+                      color: "#7fe4c1",
+                      marginTop: "-10px",
+                      width: "30px",
+                      height: "30px",
+                    }}
+                  >
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                  </svg>
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
                   <Dropdown.Item onClick={() => setSort("new")}>
