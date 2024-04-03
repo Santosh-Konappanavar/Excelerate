@@ -1,0 +1,41 @@
+body {
+  background-color: #243665 !important;
+  color: #6fd6b2;
+}
+
+@media only screen and (min-width: 390px) {
+  .export_btn,
+  .search_btn,
+  .dropdown_btn1 {
+    background-color: #8bd8bd;
+    color: #243665;
+    border: none;
+  }
+  .filter_status {
+    text-align: left;
+  }
+  .dropdown_btn1,
+  .export_btn,.gender,.status_radio {
+    margin-bottom: 1.5rem;
+  }
+  .export_btn:hover,
+  .search_btn:hover {
+    background-color: #7fe4c1;
+  }
+  .button {
+    margin-left: 0.4rem;
+    white-space: nowrap;
+  }
+  .search_btn {
+    max-height: 2.4rem;
+    width: 10rem;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .dropdown_btn1:hover {
+    background-color: #47c99c;
+  }
+}

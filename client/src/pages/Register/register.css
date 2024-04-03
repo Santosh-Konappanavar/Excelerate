@@ -1,0 +1,39 @@
+body {
+  background-color: whitesmoke;
+}
+.profile_div img {
+  max-width: 56px;
+  border-radius: 50%;
+  border: 1px solid #111;
+}
+
+.reg {
+  background-color: #243665;
+  color: #6fd6b2;
+}
+
+.profile_div {
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 90%;
+}
+
+form {
+  text-align: left;
+}
+input {
+  margin-left: 0rem;
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  color: #243665;
+  background-color: #8bd8bd;
+  border: none;
+}
+
+.button:hover {
+  background-color: #7fe4c1;
+}
