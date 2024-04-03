@@ -7,9 +7,9 @@ const router = require("./Routes/router");
 const PORT = process.env.PORT || 6010;
 
 app.use(cors({
-  origin: ["https://excelerateclientapi.vercel.app"],
+  origin: "https://excelerateclientapi.vercel.app",
   methods: ["POST", "GET"],
-  credential: true
+  credentials: true
 }));
 app.use(express.json());
 app.use("/uploads", express.static("./uploads"));
