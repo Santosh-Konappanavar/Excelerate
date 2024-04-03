@@ -1,6 +1,7 @@
 import axios from "axios";
 
 export const commonrequest = async (methods, url, body, header) => {
+  axios.defaults.withCredentials = true;
   let config = {
     method: methods,
     url,
