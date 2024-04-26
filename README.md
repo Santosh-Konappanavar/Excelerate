@@ -27,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [GigSearch Backend] <a name="about-project"></a> <a name="about-project"></a>
+# 📖 [excelerate] <a name="about-project"></a> <a name="about-project"></a>
 
-**GigSearch Backend**
+**Backend**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -104,7 +104,7 @@ nodemon app.js or npm start
 npm start
 ```
 
-# 📖 [GigSearch Front-End] <a name="about-project"></a> <a name="about-project"></a>
+# 📖 [Front-End] <a name="about-project"></a> <a name="about-project"></a>
 
 <b>TODO LIST</b> is a website where users can create, update and delete the task . The user can also see the details of a task.
 
